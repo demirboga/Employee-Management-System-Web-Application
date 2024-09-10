@@ -1,0 +1,43 @@
+.fontcolor{
+    color:lightslategray;
+}
+.custom-accordion-button {
+    width: 400px;
+    height: 60px;
+    background-color: #849abb ;
+    color:white;
+    border: none;
+    outline: none;
+
+}
+.custom-outline {
+    outline: 3px solid rgba(105, 179, 243, 0.39);
+    outline-offset: 1px;
+}
+.rounded-button {
+    border-radius: 15px;
+}
+.right-half {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 40vh; /* Adjust as needed */
+}
+
+.carousel-container {
+    width: 30%; /* Adjust to control the size of the carousel */
+}
+.focus {
+    box-shadow: none; /* Remove focus shadow */
+}
+.height{
+    height: 40vh;
+}
+.carousel-tip{
+    justify-content: flex-end;
+    align-items: center;
+}
+.selected-manager {
+    box-shadow: 0px 0px 10px 2px rgba(0, 123, 255, 0.5);
+    border-color: rgba(0, 123, 255, 0.44); /* Blue border */
+}
